@@ -7,7 +7,7 @@
     "zulacecek"
   ],
   "description": "Limits how many bag slots the player has. Can limit what can go into the slots.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "dependencies": {
     "game": "1.21.0"
   }

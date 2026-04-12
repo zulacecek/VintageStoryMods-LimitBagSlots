@@ -16,9 +16,6 @@ namespace LimitBagSlots.HarmonyPatches
                 return;
             }
 
-            LimitBagSlotsModSystem.LimitBagSlotsConfig.ForbidBagsFromSlots = false;
-            LimitBagSlotsModSystem.LimitBagSlotsConfig.ForbidNonBagsFromBagSlots = true;
-
             var isBag = collectible.HasBehavior(typeof(IHeldBag), true);
             if ((LimitBagSlotsModSystem.LimitBagSlotsConfig.ForbidBagsFromSlots && isBag)
                 || (LimitBagSlotsModSystem.LimitBagSlotsConfig.ForbidNonBagsFromBagSlots && !isBag))

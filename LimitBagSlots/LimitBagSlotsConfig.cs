@@ -8,6 +8,6 @@
 
         public bool ForbidBagsFromSlots { get; set; } = false;
 
-        public bool ForbidNonBagsFromBagSlots { get; set; } = false;
+        public bool ForbidNonBagsFromBagSlots { get; set; } = true;
     }
 }
