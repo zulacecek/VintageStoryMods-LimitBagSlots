@@ -1,0 +1,3 @@
+[
+  { "file": "game:itemtypes/wearable/bag/hunterbackpack", "op": "replace", "path": "/attributes/backpack/quantitySlots", "value": "16" }
+]

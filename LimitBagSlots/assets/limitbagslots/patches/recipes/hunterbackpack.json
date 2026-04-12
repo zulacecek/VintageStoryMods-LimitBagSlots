@@ -1,0 +1,31 @@
+[
+  { 
+    "op": "replace", 
+    "path": "/0/ingredients/P/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  },
+  { 
+    "op": "replace", 
+    "path": "/0/ingredients/C/quantity",
+    "value": "12",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  },
+  
+  { 
+    "op": "replace", 
+    "path": "/1/ingredients/S/quantity",
+    "value": "12",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  },
+  { 
+    "op": "replace", 
+    "path": "/1/ingredients/C/quantity",
+    "value": "12",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  }
+]

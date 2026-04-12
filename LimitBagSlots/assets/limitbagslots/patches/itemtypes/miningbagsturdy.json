@@ -1,0 +1,3 @@
+[
+  { "file": "game:itemtypes/wearable/bag/miningbagsturdy", "op": "replace", "path": "/attributes/backpack/quantitySlots", "value": "32" }
+]

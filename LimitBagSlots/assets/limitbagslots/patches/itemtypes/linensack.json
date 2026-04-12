@@ -1,0 +1,3 @@
+[
+  { "file": "game:itemtypes/wearable/bag/linensack", "op": "replace", "path": "/attributes/backpack/quantitySlots", "value": "20" }
+]

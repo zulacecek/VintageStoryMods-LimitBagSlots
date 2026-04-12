@@ -1,0 +1,58 @@
+[
+  { 
+    "op": "add", 
+    "path": "/0/ingredients/T/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/miningbag",
+    "side": "Server"
+  },
+  { 
+    "op": "add", 
+    "path": "/0/ingredients/L/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/miningbag",
+    "side": "Server"
+  },
+  { 
+    "op": "add", 
+    "path": "/0/ingredients/P/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/miningbag",
+    "side": "Server"
+  },
+  { 
+    "op": "add", 
+    "path": "/1/ingredients/P/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/miningbag",
+    "side": "Server"
+  },
+  { 
+    "op": "add", 
+    "path": "/2/ingredients/T/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/miningbag",
+    "side": "Server"
+  },
+  { 
+    "op": "replace", 
+    "path": "/2/ingredients/L/quantity",
+    "value": "8",
+    "file": "game:recipes/grid/miningbag",
+    "side": "Server"
+  },
+  { 
+    "op": "add", 
+    "path": "/2/ingredients/P/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/miningbag",
+    "side": "Server"
+  },
+  { 
+    "op": "replace", 
+    "path": "/2/ingredients/S/quantity",
+    "value": "12",
+    "file": "game:recipes/grid/miningbag",
+    "side": "Server"
+  }
+]

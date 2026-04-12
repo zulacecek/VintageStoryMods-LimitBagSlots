@@ -1,0 +1,16 @@
+[
+  { 
+    "op": "replace", 
+    "path": "/0/ingredients/L/quantity",
+    "value": "8",
+    "file": "game:recipes/grid/basket",
+    "side": "Server"
+  },
+  { 
+    "op": "replace", 
+    "path": "/1/ingredients/P/quantity",
+    "value": "8",
+    "file": "game:recipes/grid/basket",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,3 @@
+[
+  { "file": "game:itemtypes/wearable/bag/glider", "op": "replace", "path": "/attributes/backpack/quantitySlots", "value": "6" }
+]

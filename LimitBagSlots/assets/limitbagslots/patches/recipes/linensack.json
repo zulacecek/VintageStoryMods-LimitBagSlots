@@ -1,0 +1,16 @@
+[
+  { 
+    "op": "add", 
+    "path": "/ingredients/T/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/linensack",
+    "side": "Server"
+  },
+  { 
+    "op": "add", 
+    "path": "/ingredients/L/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/linensack",
+    "side": "Server"
+  }
+]

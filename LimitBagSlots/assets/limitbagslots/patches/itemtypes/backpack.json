@@ -1,0 +1,14 @@
+[
+  { 
+    "op": "replace", 
+    "path": "/attributes/backpackByType/*-normal/quantitySlots",
+    "value": "24",
+    "file": "game:itemtypes/wearable/bag/backpack"
+  },
+  { 
+    "op": "replace",
+    "path": "/attributes/backpackByType/*-sturdy/quantitySlots",
+    "value": "32",
+    "file": "game:itemtypes/wearable/bag/backpack"
+  }
+]

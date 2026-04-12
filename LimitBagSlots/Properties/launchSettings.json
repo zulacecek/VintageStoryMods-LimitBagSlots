@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "Client": {
+      "commandName": "Executable",
+      "executablePath": "dotnet",
+      "commandLineArgs": "\"C:/Games/Vintagestory/Vintagestory.dll\" --tracelog --addModPath \"C:/Code/VSmods/LimitBagSlots/LimitBagSlots/bin/Debug/Mods\" --addOrigin \"C:/Code/VSmods/LimitBagSlots/LimitBagSlots/assets\"",
+      "workingDirectory": "C:\\Games\\Vintagestory",
+      "nativeDebugging": true
+    },
+    "Server": {
+      "commandName": "Executable",
+      "executablePath": "dotnet",
+      "commandLineArgs": "\"$(VINTAGE_STORY)/VintagestoryServer.dll\" --tracelog --addModPath \"$(ProjectDir)/bin/$(Configuration)/Mods\" --addOrigin \"$(ProjectDir)/assets\"",
+      "workingDirectory": "$(VINTAGE_STORY)"
+    }
+  }
+}
