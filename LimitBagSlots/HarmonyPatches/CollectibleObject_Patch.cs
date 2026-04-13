@@ -16,9 +16,8 @@ namespace LimitBagSlots.HarmonyPatches
                 return;
             }
 
-            var isBag = collectible.HasBehavior(typeof(IHeldBag), true);
-            if ((LimitBagSlotsModSystem.LimitBagSlotsConfig.ForbidBagsFromSlots && isBag)
-                || (LimitBagSlotsModSystem.LimitBagSlotsConfig.ForbidNonBagsFromBagSlots && !isBag))
+            var config = LimitBagSlotsModSystem.LimitBagSlotsConfig;
+            if (BackSlotsLimitRules.ForbidItem(collectible, config.ForbidBagsFromSlots, config.ForbidNonBagsFromBagSlots))
             {
                 __result = EnumItemStorageFlags.General;
             }

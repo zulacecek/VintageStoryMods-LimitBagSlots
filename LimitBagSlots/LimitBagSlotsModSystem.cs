@@ -1,6 +1,8 @@
 ﻿using HarmonyLib;
 using System;
+using System.Linq;
 using Vintagestory.API.Common;
+using Vintagestory.API.Server;
 
 namespace LimitBagSlots
 {
@@ -17,7 +19,13 @@ namespace LimitBagSlots
 
             _harmony = new Harmony(Mod.Info.ModID);
             _harmony.PatchAll();
+        }
 
+        public override void StartServerSide(ICoreServerAPI api)
+        {
+            base.StartServerSide(api);
+
+            api.Event.PlayerNowPlaying += BackSlotsLimitRules.TryRemovingForbidenItemsInBagSlots;
         }
 
         public override void Dispose()
