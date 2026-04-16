@@ -47,7 +47,7 @@ namespace LimitBagSlots
                 var item = slot?.Itemstack?.Collectible;
                 if (ForbidItem(item, config.ForbidBagsFromSlots, config.ForbidNonBagsFromBagSlots))
                 {
-                    if (!inventoryCleared)
+                    if (!inventoryCleared && config.ForbidBagsFromSlots)
                     {
                         ForceDropPlayerInvetoryContent(player);
                         inventoryCleared = true;
