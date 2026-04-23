@@ -1,8 +1,8 @@
 [
   { 
     "op": "replace", 
-    "path": "/0/ingredients/P/quantity",
-    "value": "4",
+    "path": "/0/ingredients/S/quantity",
+    "value": "12",
     "file": "game:recipes/grid/hunterbackpack",
     "side": "Server"
   },
@@ -16,8 +16,8 @@
   
   { 
     "op": "replace", 
-    "path": "/1/ingredients/S/quantity",
-    "value": "12",
+    "path": "/1/ingredients/P/quantity",
+    "value": "4",
     "file": "game:recipes/grid/hunterbackpack",
     "side": "Server"
   },
@@ -25,6 +25,65 @@
     "op": "replace", 
     "path": "/1/ingredients/C/quantity",
     "value": "12",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  },
+  
+  { 
+    "op": "replace", 
+    "path": "/2/ingredients/P/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  },
+  { 
+    "op": "replace", 
+    "path": "/2/ingredients/C/quantity",
+    "value": "12",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  },
+  
+  { 
+    "op": "replace", 
+    "path": "/3/ingredients/P/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  },
+  { 
+    "op": "add", 
+    "path": "/3/ingredients/P/returnedStack/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  },
+  { 
+    "op": "replace", 
+    "path": "/3/ingredients/C/quantity",
+    "value": "12",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  },
+
+  { 
+    "op": "replace", 
+    "path": "/4/ingredients/P/quantity",
+    "value": "4",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  },
+  { 
+    "op": "replace", 
+    "path": "/4/ingredients/C/quantity",
+    "value": "12",
+    "file": "game:recipes/grid/hunterbackpack",
+    "side": "Server"
+  },
+  { 
+    "op": "replace", 
+    "path": "/4/ingredients/D/quantity",
+    "value": "16",
     "file": "game:recipes/grid/hunterbackpack",
     "side": "Server"
   }

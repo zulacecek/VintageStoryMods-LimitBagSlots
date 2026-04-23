@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <LangVersion>8.0</LangVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
@@ -33,11 +33,11 @@
 <ItemGroup>
   <Reference Include="0Harmony">
     <HintPath>..\..\..\..\Games\Vintagestory\Lib\0Harmony.dll</HintPath>
-    <Private>false</Private>
+    <private>False</private>
   </Reference>
   <Reference Include="VintagestoryAPI">
     <HintPath>..\..\..\..\Games\Vintagestory\VintagestoryAPI.dll</HintPath>
-    <Private>false</Private>
+    <private>False</private>
   </Reference>
 </ItemGroup>
 
